@@ -1,0 +1,206 @@
+2016-10-30 23:46:08.3735|Info|Home|Inside ndex()
+2016-10-30 23:46:51.3917|Error|AuthenticationApp.Controllers.CustomHandleErrorAttributs|{
+  "ExceptionMessage": "Input string was not in a correct format.",
+  "Controller": null,
+  "Action": "Index",
+  "InnerException": null,
+  "Data": {}
+}
+2016-10-30 23:52:06.6335|Info|Home|Inside index
+2016-10-30 23:52:06.8770|Error|AuthenticationApp.Controllers.CustomHandleErrorAttributs|{
+  "ExceptionMessage": "Input string was not in a correct format.",
+  "Controller": null,
+  "Action": "Index",
+  "InnerException": null,
+  "Data": {
+    "NLog.ExceptionLoggedToInternalLogger": true
+  }
+}
+2016-10-30 23:52:40.4185|Info|Home|Inside index
+2016-10-30 23:52:40.6760|Error|AuthenticationApp.Controllers.CustomHandleErrorAttributs|{
+  "ExceptionMessage": "Input string was not in a correct format.",
+  "Controller": null,
+  "Action": "Index",
+  "InnerException": null,
+  "Data": {
+    "NLog.ExceptionLoggedToInternalLogger": true
+  }
+}
+2016-10-31 00:00:26.1991|Info|AuthenticationApp.Controllers.HomeController|Inside index
+2016-10-31 00:02:27.8269|Info|AuthenticationApp.Controllers.HomeController|Inside index
+2016-10-30 17:06:45.7292 Inside index 
+2016-10-30 17:06:45.9657 {
+  "ExceptionMessage": "Input string was not in a correct format.",
+  "Controller": null,
+  "Action": "Index",
+  "InnerException": null,
+  "Data": {
+    "NLog.ExceptionLoggedToInternalLogger": true
+  }
+} 
+2016-10-30 17:06:53.5948 Inside index 
+2016-10-30 17:06:53.8373 {
+  "ExceptionMessage": "Input string was not in a correct format.",
+  "Controller": null,
+  "Action": "Index",
+  "InnerException": null,
+  "Data": {
+    "NLog.ExceptionLoggedToInternalLogger": true
+  }
+} 
+2016-10-30 17:07:26.1565 Inside index 
+2016-10-30 17:07:26.3815 {
+  "ExceptionMessage": "Input string was not in a correct format.",
+  "Controller": null,
+  "Action": "Index",
+  "InnerException": null,
+  "Data": {
+    "NLog.ExceptionLoggedToInternalLogger": true
+  }
+} 
+Inside index
+Inside index
+Index
+Index
+2016-10-30 18:04:47.7088|INFO|AuthenticationApp.Controllers.HomeController|Index
+2016-10-30 18:05:22.0174|ERROR|AuthenticationApp.Controllers.CustomHandleErrorAttributs|{
+  "ExceptionMessage": "Attempted to divide by zero.",
+  "Controller": null,
+  "Action": "Registration",
+  "InnerException": null,
+  "Data": {}
+}
+2016-10-30 18:08:50.7818|INFO|AuthenticationApp.Controllers.HomeController|Index
+2016-10-30 18:08:51.0158|ERROR|AuthenticationApp.Controllers.CustomHandleErrorAttributs|{
+  "ExceptionMessage": "Input string was not in a correct format.",
+  "Controller": "Home",
+  "Action": "Index",
+  "InnerException": null,
+  "Data": {
+    "NLog.ExceptionLoggedToInternalLogger": true
+  }
+}
+2016-10-30 18:09:21.7048|INFO|AuthenticationApp.Controllers.HomeController|Index
+2016-10-30 18:09:48.5538|ERROR|AuthenticationApp.Controllers.CustomHandleErrorAttributs|{
+  "ExceptionMessage": "Attempted to divide by zero.",
+  "Controller": "CustomerAccount",
+  "Action": "Registration",
+  "InnerException": null,
+  "Data": {}
+}
+2016-10-30 18:12:56.1437|INFO|AuthenticationApp.Controllers.HomeController|Index
+2016-10-30 18:13:27.7639|ERROR|AuthenticationApp.Controllers.CustomHandleErrorAttributs|{
+  "ExceptionMessage": "Attempted to divide by zero.",
+  "Controller": "CustomerAccount",
+  "Action": "Registration",
+  "InnerException": null,
+  "Data": {}
+}
+2016-10-30 18:15:13.1805|INFO|AuthenticationApp.Controllers.HomeController|Index
+2016-10-30 18:15:57.0898|ERROR|AuthenticationApp.Controllers.CustomHandleErrorAttributs|{
+  "ExceptionMessage": "Attempted to divide by zero.",
+  "Controller": "CustomerAccount",
+  "Action": "Registration",
+  "InnerException": null,
+  "Data": {}
+}
+2016-10-30 18:21:16.3326|INFO|AuthenticationApp.Controllers.HomeController|Index
+2016-10-30 18:21:32.0035|ERROR|AuthenticationApp.Controllers.CustomHandleErrorAttributs|{
+  "ExceptionMessage": "Attempted to divide by zero.",
+  "Controller": "CustomerAccount",
+  "Action": "Registration",
+  "InnerException": null,
+  "Data": {}
+}
+2016-10-30 18:28:32.0321|INFO|AuthenticationApp.Controllers.HomeController|Log Event: Logger='OmneaEventLog' Level=Info Message='Inside Index()' SequenceID=3
+2016-10-30 18:28:48.2046|ERROR|AuthenticationApp.Controllers.CustomHandleErrorAttributs|Log Event: Logger='OmneaEventLog' Level=Info Message='{
+  "ExceptionMessage": "Attempted to divide by zero.",
+  "Controller": "CustomerAccount",
+  "Action": "Registration",
+  "InnerException": null,
+  "Data": {}
+}' SequenceID=5
+2016-10-30 18:31:05.4530|INFO|AuthenticationApp.Controllers.HomeController|Log Event: Logger='OmneaEventLog' Level=Info Message='Inside Index()' SequenceID=3
+2016-10-30 18:31:29.5535|ERROR|AuthenticationApp.Controllers.CustomHandleErrorAttributs|Log Event: Logger='OmneaEventLog' Level=Info Message='{
+  "ExceptionMessage": "Attempted to divide by zero.",
+  "Controller": "CustomerAccount",
+  "Action": "Registration",
+  "InnerException": null,
+  "Data": {}
+}' SequenceID=5
+2016-10-30 18:32:57.7765|INFO|AuthenticationApp.Controllers.HomeController|Log Event: Logger='OmneaEventLog' Level=Info Message='Inside Index()' SequenceID=3
+2016-10-30 18:33:12.9743|ERROR|AuthenticationApp.Controllers.CustomHandleErrorAttributs|Log Event: Logger='OmneaEventLog' Level=Info Message='{
+  "ExceptionMessage": "Attempted to divide by zero.",
+  "Controller": "CustomerAccount",
+  "Action": "Registration",
+  "InnerException": null,
+  "Data": {}
+}' SequenceID=5
+2016-10-30 18:43:22.3269|INFO|AuthenticationApp.Controllers.HomeController|Log Event: Logger='OmneaEventSource' Level=Info Message='Inside Index()' SequenceID=3
+2016-10-30 18:43:39.6666|ERROR|AuthenticationApp.Controllers.CustomHandleErrorAttributs|Log Event: Logger='OmneaEventLog' Level=Info Message='{
+  "ExceptionMessage": "Attempted to divide by zero.",
+  "Controller": "CustomerAccount",
+  "Action": "Registration",
+  "InnerException": null,
+  "Data": {}
+}' SequenceID=5
+2016-10-30 18:45:09.7930|INFO|AuthenticationApp.Controllers.HomeController|Log Event: Logger='OmneaEventSource' Level=Info Message='Inside Index()' SequenceID=3
+2016-10-30 18:45:32.5216|ERROR|AuthenticationApp.Controllers.CustomHandleErrorAttributs|Log Event: Logger='OmneaEventLog' Level=Info Message='{
+  "ExceptionMessage": "Attempted to divide by zero.",
+  "Controller": "CustomerAccount",
+  "Action": "Registration",
+  "InnerException": null,
+  "Data": {}
+}' SequenceID=5
+2016-10-30 18:47:30.5983|INFO|AuthenticationApp.Controllers.HomeController|Log Event: Logger='OmneaEventSource' Level=Info Message='Inside Index()' SequenceID=3
+2016-10-30 18:47:44.6819|ERROR|AuthenticationApp.Controllers.CustomHandleErrorAttributs|Log Event: Logger='OmneaEventSource' Level=Error Message='{
+  "ExceptionMessage": "Attempted to divide by zero.",
+  "Controller": "CustomerAccount",
+  "Action": "Registration",
+  "InnerException": null,
+  "Data": {}
+}' SequenceID=5
+2016-10-30 18:52:59.9687|INFO|AuthenticationApp.Controllers.HomeController|Log Event: Logger='OmneaEventSource' Level=Info Message='Inside Index()' SequenceID=3
+2016-10-30 18:53:30.1550|ERROR|AuthenticationApp.Controllers.CustomHandleErrorAttributs|Log Event: Logger='OmneaEventSource' Level=Error Message='{
+  "ExceptionMessage": "Attempted to divide by zero.",
+  "Controller": "CustomerAccount",
+  "Action": "Registration",
+  "InnerException": null,
+  "Data": {}
+}' SequenceID=5
+2016-10-30 18:54:50.9069|INFO|AuthenticationApp.Controllers.HomeController|Log Event: Logger='OmneaEventSource' Level=Info Message='Inside Index()' SequenceID=3
+2016-10-30 18:55:09.2818|ERROR|AuthenticationApp.Controllers.CustomHandleErrorAttributs|Log Event: Logger='OmneaEventSource' Level=Error Message='{
+  "ExceptionMessage": "Attempted to divide by zero.",
+  "Controller": "CustomerAccount",
+  "Action": "Registration",
+  "InnerException": null,
+  "Data": {}
+}' SequenceID=5
+2016-10-30 20:15:38.7306|INFO|AuthenticationApp.Controllers.HomeController|Log Event: Logger='OmneaEventSource' Level=Info Message='Inside Index()' SequenceID=3
+2016-10-30 20:23:33.0667|ERROR|AuthenticationApp.Controllers.CustomHandleErrorAttributs|Log Event: Logger='OmneaEventSource' Level=Error Message='{
+  "ExceptionMessage": "Attempted to divide by zero.",
+  "Controller": "CustomerAccount",
+  "Action": "Registration",
+  "InnerException": null,
+  "Data": {}
+}' SequenceID=5
+2016-10-30 20:24:55.8005|INFO|AuthenticationApp.Controllers.HomeController|Log Event: Logger='OmneaEventSource' Level=Info Message='Inside Index()' SequenceID=3
+2016-10-30 20:25:45.4140|ERROR|AuthenticationApp.Controllers.CustomHandleErrorAttributs|Log Event: Logger='OmneaEventSource' Level=Error Message='{
+  "ExceptionMessage": "Attempted to divide by zero.",
+  "Controller": "CustomerAccount",
+  "Action": "Registration",
+  "InnerException": null,
+  "Data": {}
+}' SequenceID=5
+2016-10-30 20:30:32.6547|ERROR|AuthenticationApp.Controllers.CustomHandleErrorAttributs|Log Event: Logger='OmneaEventSource' Level=Error Message='{
+  "ExceptionMessage": "Attempted to divide by zero.",
+  "Controller": "CustomerAccount",
+  "Action": "Registration",
+  "TimeStamp": "2016-10-30T20:30:32.5027726-07:00"
+}' SequenceID=5
+2016-10-30 20:30:37.8405|ERROR|AuthenticationApp.Controllers.CustomHandleErrorAttributs|Log Event: Logger='OmneaEventSource' Level=Error Message='{
+  "ExceptionMessage": "Attempted to divide by zero.",
+  "Controller": "CustomerAccount",
+  "Action": "Registration",
+  "TimeStamp": "2016-10-30T20:30:37.8405101-07:00"
+}' SequenceID=7

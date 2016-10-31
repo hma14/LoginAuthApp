@@ -383,9 +383,7 @@ namespace AuthenticationApp.Controllers
                 }
                 var user = new ApplicationUser {
                     UserName = model.Email,
-                    Email = model.Email,
-                    HomeTown = model.HomeTown,
-                    BirthDate = model.BirthDate
+                    Email = model.Email
                 };
                 var result = await UserManager.CreateAsync(user);
                 if (result.Succeeded)
