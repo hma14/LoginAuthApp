@@ -6,7 +6,7 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>@ViewBag.Title - My ASP.NET Application</title>
     @*@Styles.Render("~/Content/css")
-    @Scripts.Render("~/bundles/modernizr")*@
+        @Scripts.Render("~/bundles/modernizr")*@
 
 
 
@@ -18,7 +18,7 @@
 
     <!-- Material Design Bootstrap -->
     <link href="~/Content/MDB-Pro/css/mdb.min.css" rel="stylesheet" />
-    <link href="~/Content/Site.css" rel="stylesheet" />
+    @*<link href="~/Content/Site.css" rel="stylesheet" />*@
     <style rel="stylesheet">
         /* TEMPLATE STYLES */
         /* Necessary for full page carousel*/
@@ -32,7 +32,7 @@
 
         .navbar {
             /*background-color: transparent;*/
-             background-color: #1c2331;
+            background-color: #1C2331;
         }
 
         .scrolling-navbar {
@@ -76,8 +76,8 @@
     @Scripts.Render("~/bundles/bootstrap")
     @RenderSection("scripts", required: false)
 
-    @*<script src="~/Content/MDB-Pro/js/jquery-2.2.3.min.js"></script>*@
-    <script src="~/Scripts/jquery-3.1.1.min.js"></script>
+    <script src="~/Content/MDB-Pro/js/jquery-2.2.3.min.js"></script>
+    @*<script src="~/Scripts/jquery-3.1.1.min.js"></script>*@
 
     <!-- Bootstrap tooltips -->
     <script src="~/Content/MDB-Pro/js/tether.min.js"></script>
