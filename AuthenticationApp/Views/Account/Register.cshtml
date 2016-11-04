@@ -13,8 +13,8 @@
             <!--Header-->
             <div class="text-xs-center">
                 <h3><i class="fa fa-sign-in"></i> Sign Up</h3>
-                <hr class="mt-2 mb-2">
             </div>
+            <br />
             @using (Html.BeginForm("Register", "Account", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
             {
                 @Html.AntiForgeryToken()
