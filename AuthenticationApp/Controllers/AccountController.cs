@@ -13,6 +13,7 @@ using AuthenticationApp.Models;
 namespace AuthenticationApp.Controllers
 {
     [Authorize]
+    [CustomHandleErrorAttributs]
     public class AccountController : Controller
     {
         private ApplicationSignInManager _signInManager;
@@ -439,6 +440,8 @@ namespace AuthenticationApp.Controllers
 
             base.Dispose(disposing);
         }
+
+
 
         #region Helpers
         // Used for XSRF protection when adding external logins

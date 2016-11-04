@@ -2,30 +2,157 @@
     ViewBag.Title = "Home Page";
 }
 
-<div class="jumbotron">
-    <h1>ASP.NET</h1>
-    <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
-    <p><a href="http://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
-</div>
 
-<div class="row">
-    <div class="col-md-4">
-        <h2>Getting started</h2>
-        <p>
-            ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
-            enables a clean separation of concerns and gives you full control over markup
-            for enjoyable, agile development.
-        </p>
-        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
+
+
+   <!-- Template styles -->
+<style rel="stylesheet">
+    /* TEMPLATE STYLES */
+    /* Necessary for full page carousel*/
+
+
+    /* Carousel*/
+
+    .carousel,
+    .carousel-item,
+    .active {
+        height: 100%;
+    }
+
+    .carousel-inner {
+        height: 100%;
+    }
+
+    .carousel-item:nth-child(1) {
+        background-image: url("http://mdbootstrap.com/images/regular/nature/img%20(54).jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .carousel-item:nth-child(2) {
+        background-image: url("http://mdbootstrap.com/images/regular/nature/img%20(4).jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .carousel-item:nth-child(3) {
+        background-image: url("http://mdbootstrap.com/images/regular/nature/img%20(3).jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    /*Caption*/
+
+    .flex-center {
+        color: #fff;
+    }
+
+    @@media (min-width: 776px) {
+        .carousel .view ul li {
+            display: inline;
+        }
+
+        .carousel .view .full-bg-img ul li .flex-item {
+            margin-bottom: 1.5rem;
+        }
+    }
+
+    /*.navbar {
+            background-color: transparent;
+        }*/
+</style>
+
+
+
+<!--Carousel Wrapper-->
+<div id="carousel-example-1" class="carousel slide carousel-fade" data-ride="carousel" data-interval="false" >
+    <!--Indicators-->
+    <ol class="carousel-indicators">
+        <li data-target="#carousel-example-1" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-1" data-slide-to="1"></li>
+        <li data-target="#carousel-example-1" data-slide-to="2"></li>
+    </ol>
+    <!--/.Indicators-->
+    <!--Slides-->
+    <div class="carousel-inner" role="listbox">
+
+        <!--First slide-->
+        <div class="carousel-item active">
+            <!--Mask-->
+            <div class="view hm-black-light">
+                <div class="full-bg-img flex-center">
+                    <ul class="animated fadeInUp col-md-12">
+                        <li>
+                            <h1 class="h1-responsive flex-item">IN GLOBAL CUSTOM MANUFACTURING</h1>
+                        <li>
+                            <p class="flex-item">CHECK BACK FOR A REVOLUTION</p>
+                        </li>
+                        <li>
+                            <a target="_blank" href="http://omnae.com/Account/Register" class="btn btn-primary btn-lg flex-item">Sign up!</a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="http://omnae.com/Account/Login" class="btn btn-default btn-lg flex-item">Log in!</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!--/.Mask-->
+        </div>
+        <!--/.First slide-->
+        <!--Second slide -->
+        <div class="carousel-item">
+            <!--Mask-->
+            <div class="view hm-black-light">
+                <div class="full-bg-img flex-center">
+                    <ul class="animated fadeInUp col-md-12">
+                        <li>
+                            <h1 class="h1-responsive">IN GLOBAL CUSTOM MANUFACTURING</h1>
+                        </li>
+                        <li>
+                            <p>CHECK BACK FOR A REVOLUTION</p>
+                        </li>
+                        <li>
+                            <a target="_blank" href="http://omnae.com/" class="btn btn-primary btn-lg">Start learning</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!--/.Mask-->
+        </div>
+        <!--/.Second slide -->
+        <!--Third slide-->
+        <div class="carousel-item">
+            <!--Mask-->
+            <div class="view hm-black-light">
+                <div class="full-bg-img flex-center">
+                    <ul class="animated fadeInUp col-md-12">
+                        <li>
+                            <h1 class="h1-responsive">IN GLOBAL CUSTOM MANUFACTURING</h1>
+                        </li>
+                        <li>
+                            <p>CHECK BACK FOR A REVOLUTION</p>
+                        </li>
+                        <li>
+                            <a target="_blank" href="http://omnae.com/" class="btn btn-default btn-lg">Support forum</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!--/.Mask-->
+        </div>
+        <!--/.Third slide-->
     </div>
-    <div class="col-md-4">
-        <h2>Get more libraries</h2>
-        <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
-        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
-    </div>
-    <div class="col-md-4">
-        <h2>Web Hosting</h2>
-        <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
-        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
-    </div>
+    <!--/.Slides-->
+    <!--Controls-->
+    <a class="left carousel-control" href="#carousel-example-1" role="button" data-slide="prev">
+        <span class="icon-prev" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#carousel-example-1" role="button" data-slide="next">
+        <span class="icon-next" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+    <!--/.Controls-->
 </div>
+<!--/.Carousel Wrapper-->
+<!--/.Main layout-->
+

@@ -25,8 +25,6 @@ namespace AuthenticationApp.Models.Mapping
             // Table & Column Mappings
             this.ToTable("AspNetUsers");
             this.Property(t => t.Id).HasColumnName("Id");
-            this.Property(t => t.HomeTown).HasColumnName("HomeTown");
-            this.Property(t => t.BirthDate).HasColumnName("BirthDate");
             this.Property(t => t.Email).HasColumnName("Email");
             this.Property(t => t.EmailConfirmed).HasColumnName("EmailConfirmed");
             this.Property(t => t.PasswordHash).HasColumnName("PasswordHash");

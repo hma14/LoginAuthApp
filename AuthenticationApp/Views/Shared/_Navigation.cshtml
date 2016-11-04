@@ -1,0 +1,69 @@
+﻿
+  <!-- Bootstrap core CSS -->
+<link href="~/Content/MDB-Pro/css/bootstrap.min.css" rel="stylesheet" />
+
+<!-- Material Design Bootstrap -->
+@*<link href="~/Content/MDB-Pro/css/mdb.min.css" rel="stylesheet" />*@
+
+@*<style rel="stylesheet">
+    /* TEMPLATE STYLES */
+    /* Necessary for full page carousel*/
+
+  
+    /* Navigation*/
+
+    .navbar {
+        background-color: transparent;
+    }
+
+    .scrolling-navbar {
+        -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
+        transition: background .5s ease-in-out, padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        background-color: #1C2331;
+    }
+
+  
+
+    @@media only screen and (max-width: 768px) {
+        .navbar {
+            background-color: #1C2331;
+        }
+    }
+</style>*@
+
+<!--Navbar-->
+
+
+<nav class="navbar navbar-dark navbar-fixed-top scrolling-navbar">
+
+    <!-- Collapse button-->
+    <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#collapseEx">
+        <i class="fa fa-bars"></i>
+    </button>
+
+    <div class="container">
+        
+        <!--Collapse content-->
+        <div class="collapse navbar-toggleable-xs" id="collapseEx">
+            <!--Navbar Brand-->
+            <a class="navbar-brand" href="http://omnae.com/">OMNAE</a>
+            <!--Links-->
+            <ul class="nav navbar-nav">
+                <li class="nav-item"><a class="nav-link" href='@Url.Action("Index", "Home", null, Request.Url.Scheme)'>Home</a></li>
+                <li class="nav-item"><a class="nav-link" href='@Url.Action("About", "Home", null, Request.Url.Scheme)'>About</a></li>
+                <li class="nav-item"><a class="nav-link" href='@Url.Action("Contact", "Home", null, Request.Url.Scheme)'>Contact</a></li>
+            </ul>
+            @Html.Partial("_LoginPartial")
+           
+        </div>
+        <!--/.Collapse content-->
+
+    </div>
+
+</nav>
+<!--/.Navbar-->
+

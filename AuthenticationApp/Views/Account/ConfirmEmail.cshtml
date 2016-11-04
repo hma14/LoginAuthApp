@@ -2,12 +2,19 @@
     ViewBag.Title = "Confirm Email";
 }
 
-<h2>@ViewBag.Title.</h2>
-<div>
-    <p>
-        @*Thank you for confirming your email. Please @Html.ActionLink("Click here to Log in", "Login", "Account", routeValues: null, htmlAttributes: new { id = "loginLink" })*@
+<div class="row top">
+    <div class="offset-md-4 col-md-4">
 
-        Thank you for confirming your email. Please @Html.ActionLink("Click here to fulfill your personal info", "Registration", "CustomerAccount", 
-                                                   routeValues: new { @userId = @HttpContext.Current.Request.QueryString["userId"] }, htmlAttributes: new { id = "loginLink" })
-    </p>
+
+        <div class="card-block">
+            <div>
+                <p class="card-text">
+                    Thank you for confirming your email. Please @Html.ActionLink("Click here to Log in", "Login", "Account", routeValues: null, htmlAttributes: new { id = "loginLink" })
+
+                    @*Thank you for confirming your email. Please @Html.ActionLink("Click here to fulfill your personal info", "Registration", "CustomerAccount",
+                                                   routeValues: new { @userId = @HttpContext.Current.Request.QueryString["userId"] }, htmlAttributes: new { id = "loginLink" })*@
+                </p>
+            </div>
+        </div>
+    </div>
 </div>

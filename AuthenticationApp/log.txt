@@ -204,3 +204,285 @@ Index
   "Action": "Registration",
   "TimeStamp": "2016-10-30T20:30:37.8405101-07:00"
 }' SequenceID=7
+2016-10-31 17:20:40.9396|ERROR|AuthenticationApp.Controllers.CustomHandleErrorAttributs|Log Event: Logger='OmneaEventLog' Level=Error Message='{
+  "ExceptionMessage": "F:\\Visual_Studio_2015_Apps\\AuthenticationApp\\AuthenticationApp\\Views\\Shared\\_Layout.cshtml(41): error CS0103: The name 'media' does not exist in the current context",
+  "Controller": "Home",
+  "Action": "Index",
+  "TimeStamp": "2016-10-31T17:20:40.7501763-07:00"
+}' SequenceID=5
+2016-10-31 17:24:13.7717|ERROR|AuthenticationApp.Controllers.CustomHandleErrorAttributs|Log Event: Logger='OmneaEventLog' Level=Error Message='{
+  "ExceptionMessage": "F:\\Visual_Studio_2015_Apps\\AuthenticationApp\\AuthenticationApp\\Views\\Shared\\_Layout.cshtml(50): error CS0103: The name 'media' does not exist in the current context",
+  "Controller": "Home",
+  "Action": "Index",
+  "TimeStamp": "2016-10-31T17:24:13.5967527-07:00"
+}' SequenceID=5
+2016-10-31 17:27:05.0082|ERROR|AuthenticationApp.Controllers.CustomHandleErrorAttributs|Log Event: Logger='OmneaEventLog' Level=Error Message='{
+  "ExceptionMessage": "The partial view '_Navegation' was not found or no view engine supports the searched locations. The following locations were searched:\r\n~/Views/Home/_Navegation.aspx\r\n~/Views/Home/_Navegation.ascx\r\n~/Views/Shared/_Navegation.aspx\r\n~/Views/Shared/_Navegation.ascx\r\n~/Views/Home/_Navegation.cshtml\r\n~/Views/Home/_Navegation.vbhtml\r\n~/Views/Shared/_Navegation.cshtml\r\n~/Views/Shared/_Navegation.vbhtml",
+  "Controller": "Home",
+  "Action": "Index",
+  "TimeStamp": "2016-10-31T17:27:04.8287016-07:00"
+}' SequenceID=5
+2016-11-01 10:39:44.4295|ERROR|AuthenticationApp.Controllers.CustomHandleErrorAttributs|Log Event: Logger='OmneaEventLog' Level=Error Message='{
+  "ExceptionMessage": "The view 'Error' or its master was not found or no view engine supports the searched locations. The following locations were searched:\r\n~/Views/Error/Error.aspx\r\n~/Views/Error/Error.ascx\r\n~/Views/Shared/Error.aspx\r\n~/Views/Shared/Error.ascx\r\n~/Views/Error/The controller for path '/Shared/Info' was not found or does not implement IController..master\r\n~/Views/Shared/The controller for path '/Shared/Info' was not found or does not implement IController..master\r\n~/Views/Error/The controller for path '/Shared/Info' was not found or does not implement IController..cshtml\r\n~/Views/Error/The controller for path '/Shared/Info' was not found or does not implement IController..vbhtml\r\n~/Views/Shared/The controller for path '/Shared/Info' was not found or does not implement IController..cshtml\r\n~/Views/Shared/The controller for path '/Shared/Info' was not found or does not implement IController..vbhtml",
+  "Controller": "Error",
+  "Action": "HttpError404",
+  "TimeStamp": "2016-11-01T10:39:44.2530354-07:00"
+}' SequenceID=3
+2016-11-01 10:55:51.5011|ERROR|AuthenticationApp.Controllers.CustomHandleErrorAttributs|Log Event: Logger='OmneaEventLog' Level=Error Message='{
+  "ExceptionMessage": "Encountered end tag \"ul\" with no matching start tag.  Are your start/end tags properly balanced?\r\n",
+  "Controller": "Home",
+  "Action": "Index",
+  "TimeStamp": "2016-11-01T10:55:51.3451261-07:00"
+}' SequenceID=7
+2016-11-01 10:56:07.4940|ERROR|AuthenticationApp.Controllers.CustomHandleErrorAttributs|Log Event: Logger='OmneaEventLog' Level=Error Message='{
+  "ExceptionMessage": "Encountered end tag \"ul\" with no matching start tag.  Are your start/end tags properly balanced?\r\n",
+  "Controller": "Home",
+  "Action": "Index",
+  "TimeStamp": "2016-11-01T10:56:07.3400147-07:00"
+}' SequenceID=5
+2016-11-01 10:56:23.5004|ERROR|AuthenticationApp.Controllers.CustomHandleErrorAttributs|Log Event: Logger='OmneaEventLog' Level=Error Message='{
+  "ExceptionMessage": "Encountered end tag \"ul\" with no matching start tag.  Are your start/end tags properly balanced?\r\n",
+  "Controller": "Home",
+  "Action": "Index",
+  "TimeStamp": "2016-11-01T10:56:23.3404754-07:00"
+}' SequenceID=5
+2016-11-01 20:02:12.7368|ERROR|AuthenticationApp.Controllers.CustomHandleErrorAttributs|Log Event: Logger='OmneaEventLog' Level=Error Message='{
+  "ExceptionMessage": "F:\\Visual_Studio_2015_Apps\\AuthenticationApp\\AuthenticationApp\\Views\\Account\\ExternalLoginConfirmation.cshtml(28): error CS1061: 'ExternalLoginConfirmationViewModel' does not contain a definition for 'HomeTown' and no extension method 'HomeTown' accepting a first argument of type 'ExternalLoginConfirmationViewModel' could be found (are you missing a using directive or an assembly reference?)",
+  "Controller": "Account",
+  "Action": "ExternalLoginCallback",
+  "TimeStamp": "2016-11-01T20:02:12.6033086-07:00"
+}' SequenceID=3
+2016-11-01 20:46:41.5364|ERROR|AuthenticationApp.Controllers.CustomHandleErrorAttributs|Log Event: Logger='OmneaEventLog' Level=Error Message='{
+  "ExceptionMessage": "F:\\Visual_Studio_2015_Apps\\AuthenticationApp\\AuthenticationApp\\Views\\Account\\ExternalLoginConfirmation.cshtml(28): error CS1061: 'ExternalLoginConfirmationViewModel' does not contain a definition for 'HomeTown' and no extension method 'HomeTown' accepting a first argument of type 'ExternalLoginConfirmationViewModel' could be found (are you missing a using directive or an assembly reference?)",
+  "Controller": "Account",
+  "Action": "ExternalLoginCallback",
+  "TimeStamp": "2016-11-01T20:46:41.3879861-07:00"
+}' SequenceID=3
+2016-11-01 20:52:09.6693|ERROR|AuthenticationApp.Controllers.CustomHandleErrorAttributs|Log Event: Logger='OmneaEventLog' Level=Error Message='{
+  "ExceptionMessage": "F:\\Visual_Studio_2015_Apps\\AuthenticationApp\\AuthenticationApp\\Views\\Account\\ExternalLoginConfirmation.cshtml(28): error CS1061: 'ExternalLoginConfirmationViewModel' does not contain a definition for 'HomeTown' and no extension method 'HomeTown' accepting a first argument of type 'ExternalLoginConfirmationViewModel' could be found (are you missing a using directive or an assembly reference?)",
+  "Controller": "Account",
+  "Action": "ExternalLoginCallback",
+  "TimeStamp": "2016-11-01T20:52:09.5183421-07:00"
+}' SequenceID=3
+2016-11-01 21:47:58.1769|ERROR|AuthenticationApp.Controllers.CustomHandleErrorAttributs|Log Event: Logger='OmneaEventLog' Level=Error Message='{
+  "ExceptionMessage": "The parameters dictionary contains a null entry for parameter 'RememberMe' of non-nullable type 'System.Boolean' for method 'System.Threading.Tasks.Task`1[System.Web.Mvc.ActionResult] Login(AuthenticationApp.Models.LoginViewModel, System.String, Boolean)' in 'AuthenticationApp.Controllers.AccountController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.\r\nParameter name: parameters",
+  "Controller": "Account",
+  "Action": "Login",
+  "TimeStamp": "2016-11-01T21:47:57.9964293-07:00"
+}' SequenceID=5
+2016-11-01 21:56:42.2289|ERROR|AuthenticationApp.Controllers.CustomHandleErrorAttributs|Log Event: Logger='OmneaEventLog' Level=Error Message='{
+  "ExceptionMessage": "The parameters dictionary contains a null entry for parameter 'RememberMe' of non-nullable type 'System.Boolean' for method 'System.Threading.Tasks.Task`1[System.Web.Mvc.ActionResult] Login(AuthenticationApp.Models.LoginViewModel, System.String, Boolean)' in 'AuthenticationApp.Controllers.AccountController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.\r\nParameter name: parameters",
+  "Controller": "Account",
+  "Action": "Login",
+  "TimeStamp": "2016-11-01T21:56:42.0569472-07:00"
+}' SequenceID=5
+2016-11-01 21:58:10.9045|ERROR|AuthenticationApp.Controllers.CustomHandleErrorAttributs|Log Event: Logger='OmneaEventLog' Level=Error Message='{
+  "ExceptionMessage": "The parameters dictionary contains a null entry for parameter 'RememberMe' of non-nullable type 'System.Boolean' for method 'System.Threading.Tasks.Task`1[System.Web.Mvc.ActionResult] Login(AuthenticationApp.Models.LoginViewModel, System.String, Boolean)' in 'AuthenticationApp.Controllers.AccountController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.\r\nParameter name: parameters",
+  "Controller": "Account",
+  "Action": "Login",
+  "TimeStamp": "2016-11-01T21:58:10.6995224-07:00"
+}' SequenceID=3
+2016-11-01 21:58:59.3148|ERROR|AuthenticationApp.Controllers.CustomHandleErrorAttributs|Log Event: Logger='OmneaEventLog' Level=Error Message='{
+  "ExceptionMessage": "The parameters dictionary contains a null entry for parameter 'RememberMe' of non-nullable type 'System.Boolean' for method 'System.Threading.Tasks.Task`1[System.Web.Mvc.ActionResult] Login(AuthenticationApp.Models.LoginViewModel, System.String, Boolean)' in 'AuthenticationApp.Controllers.AccountController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.\r\nParameter name: parameters",
+  "Controller": "Account",
+  "Action": "Login",
+  "TimeStamp": "2016-11-01T21:58:59.1538993-07:00"
+}' SequenceID=3
+2016-11-01 21:59:25.6027|ERROR|AuthenticationApp.Controllers.CustomHandleErrorAttributs|Log Event: Logger='OmneaEventLog' Level=Error Message='{
+  "ExceptionMessage": "The parameters dictionary contains a null entry for parameter 'RememberMe' of non-nullable type 'System.Boolean' for method 'System.Threading.Tasks.Task`1[System.Web.Mvc.ActionResult] Login(AuthenticationApp.Models.LoginViewModel, System.String, Boolean)' in 'AuthenticationApp.Controllers.AccountController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.\r\nParameter name: parameters",
+  "Controller": "Account",
+  "Action": "Login",
+  "TimeStamp": "2016-11-01T21:59:25.6027058-07:00"
+}' SequenceID=5
+2016-11-01 21:59:39.8951|ERROR|AuthenticationApp.Controllers.CustomHandleErrorAttributs|Log Event: Logger='OmneaEventLog' Level=Error Message='{
+  "ExceptionMessage": "The parameters dictionary contains a null entry for parameter 'RememberMe' of non-nullable type 'System.Boolean' for method 'System.Threading.Tasks.Task`1[System.Web.Mvc.ActionResult] Login(AuthenticationApp.Models.LoginViewModel, System.String, Boolean)' in 'AuthenticationApp.Controllers.AccountController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.\r\nParameter name: parameters",
+  "Controller": "Account",
+  "Action": "Login",
+  "TimeStamp": "2016-11-01T21:59:39.8951759-07:00"
+}' SequenceID=7
+2016-11-01 22:08:29.3353|ERROR|AuthenticationApp.Controllers.CustomHandleErrorAttributs|Log Event: Logger='OmneaEventLog' Level=Error Message='{
+  "ExceptionMessage": "The parameters dictionary contains a null entry for parameter 'RememberMe' of non-nullable type 'System.Boolean' for method 'System.Threading.Tasks.Task`1[System.Web.Mvc.ActionResult] Login(AuthenticationApp.Models.LoginViewModel, System.String, Boolean)' in 'AuthenticationApp.Controllers.AccountController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.\r\nParameter name: parameters",
+  "Controller": "Account",
+  "Action": "Login",
+  "TimeStamp": "2016-11-01T22:08:29.3353347-07:00"
+}' SequenceID=9
+2016-11-01 22:08:50.2448|ERROR|AuthenticationApp.Controllers.CustomHandleErrorAttributs|Log Event: Logger='OmneaEventLog' Level=Error Message='{
+  "ExceptionMessage": "The parameters dictionary contains a null entry for parameter 'RememberMe' of non-nullable type 'System.Boolean' for method 'System.Threading.Tasks.Task`1[System.Web.Mvc.ActionResult] Login(AuthenticationApp.Models.LoginViewModel, System.String, Boolean)' in 'AuthenticationApp.Controllers.AccountController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.\r\nParameter name: parameters",
+  "Controller": "Account",
+  "Action": "Login",
+  "TimeStamp": "2016-11-01T22:08:50.2448879-07:00"
+}' SequenceID=11
+2016-11-01 22:26:59.1773|ERROR|AuthenticationApp.Controllers.CustomHandleErrorAttributs|Log Event: Logger='OmneaEventLog' Level=Error Message='{
+  "ExceptionMessage": "The parameters dictionary contains a null entry for parameter 'RememberMe' of non-nullable type 'System.Boolean' for method 'System.Threading.Tasks.Task`1[System.Web.Mvc.ActionResult] Login(AuthenticationApp.Models.LoginViewModel, System.String, Boolean)' in 'AuthenticationApp.Controllers.AccountController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.\r\nParameter name: parameters",
+  "Controller": "Account",
+  "Action": "Login",
+  "TimeStamp": "2016-11-01T22:26:59.0108978-07:00"
+}' SequenceID=7
+2016-11-01 22:28:25.1971|ERROR|AuthenticationApp.Controllers.CustomHandleErrorAttributs|Log Event: Logger='OmneaEventLog' Level=Error Message='{
+  "ExceptionMessage": "The parameters dictionary contains a null entry for parameter 'RememberMe' of non-nullable type 'System.Boolean' for method 'System.Threading.Tasks.Task`1[System.Web.Mvc.ActionResult] Login(AuthenticationApp.Models.LoginViewModel, System.String, Boolean)' in 'AuthenticationApp.Controllers.AccountController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.\r\nParameter name: parameters",
+  "Controller": "Account",
+  "Action": "Login",
+  "TimeStamp": "2016-11-01T22:28:25.1971849-07:00"
+}' SequenceID=9
+2016-11-01 22:28:56.2863|ERROR|AuthenticationApp.Controllers.CustomHandleErrorAttributs|Log Event: Logger='OmneaEventLog' Level=Error Message='{
+  "ExceptionMessage": "The parameters dictionary contains a null entry for parameter 'RememberMe' of non-nullable type 'System.Boolean' for method 'System.Threading.Tasks.Task`1[System.Web.Mvc.ActionResult] Login(AuthenticationApp.Models.LoginViewModel, System.String, Boolean)' in 'AuthenticationApp.Controllers.AccountController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.\r\nParameter name: parameters",
+  "Controller": "Account",
+  "Action": "Login",
+  "TimeStamp": "2016-11-01T22:28:56.2863406-07:00"
+}' SequenceID=11
+2016-11-01 22:37:46.2091|ERROR|AuthenticationApp.Controllers.CustomHandleErrorAttributs|Log Event: Logger='OmneaEventLog' Level=Error Message='{
+  "ExceptionMessage": "The parameters dictionary contains a null entry for parameter 'rememberMe' of non-nullable type 'System.Boolean' for method 'System.Threading.Tasks.Task`1[System.Web.Mvc.ActionResult] Login(AuthenticationApp.Models.LoginViewModel, System.String, Boolean)' in 'AuthenticationApp.Controllers.AccountController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.\r\nParameter name: parameters",
+  "Controller": "Account",
+  "Action": "Login",
+  "TimeStamp": "2016-11-01T22:37:46.0251613-07:00"
+}' SequenceID=5
+2016-11-01 22:38:45.2314|ERROR|AuthenticationApp.Controllers.CustomHandleErrorAttributs|Log Event: Logger='OmneaEventLog' Level=Error Message='{
+  "ExceptionMessage": "The parameters dictionary contains a null entry for parameter 'rememberMe' of non-nullable type 'System.Boolean' for method 'System.Threading.Tasks.Task`1[System.Web.Mvc.ActionResult] Login(AuthenticationApp.Models.LoginViewModel, System.String, Boolean)' in 'AuthenticationApp.Controllers.AccountController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.\r\nParameter name: parameters",
+  "Controller": "Account",
+  "Action": "Login",
+  "TimeStamp": "2016-11-01T22:38:45.2314527-07:00"
+}' SequenceID=7
+2016-11-01 22:39:18.5492|ERROR|AuthenticationApp.Controllers.CustomHandleErrorAttributs|Log Event: Logger='OmneaEventLog' Level=Error Message='{
+  "ExceptionMessage": "The parameters dictionary contains a null entry for parameter 'rememberMe' of non-nullable type 'System.Boolean' for method 'System.Threading.Tasks.Task`1[System.Web.Mvc.ActionResult] Login(AuthenticationApp.Models.LoginViewModel, System.String, Boolean)' in 'AuthenticationApp.Controllers.AccountController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.\r\nParameter name: parameters",
+  "Controller": "Account",
+  "Action": "Login",
+  "TimeStamp": "2016-11-01T22:39:18.5492001-07:00"
+}' SequenceID=9
+2016-11-01 22:57:19.6487|ERROR|AuthenticationApp.Controllers.CustomHandleErrorAttributs|Log Event: Logger='OmneaEventLog' Level=Error Message='{
+  "ExceptionMessage": "Object reference not set to an instance of an object.",
+  "Controller": "Account",
+  "Action": "Login",
+  "TimeStamp": "2016-11-01T22:57:19.4322219-07:00"
+}' SequenceID=3
+2016-11-01 23:15:55.7442|ERROR|AuthenticationApp.Controllers.CustomHandleErrorAttributs|Log Event: Logger='OmneaEventLog' Level=Error Message='{
+  "ExceptionMessage": "Object reference not set to an instance of an object.",
+  "Controller": "Account",
+  "Action": "Login",
+  "TimeStamp": "2016-11-01T23:15:55.5472024-07:00"
+}' SequenceID=3
+2016-11-01 23:18:13.8349|ERROR|AuthenticationApp.Controllers.CustomHandleErrorAttributs|Log Event: Logger='OmneaEventLog' Level=Error Message='{
+  "ExceptionMessage": "Object reference not set to an instance of an object.",
+  "Controller": "Account",
+  "Action": "Login",
+  "TimeStamp": "2016-11-01T23:18:13.6784006-07:00"
+}' SequenceID=3
+2016-11-01 23:41:32.3178|ERROR|AuthenticationApp.Controllers.CustomHandleErrorAttributs|Log Event: Logger='OmneaEventLog' Level=Error Message='{
+  "ExceptionMessage": "The \"fieldset\" element was not closed.  All elements must be either self-closing or have a matching end tag.\r\n",
+  "Controller": "Account",
+  "Action": "Login",
+  "TimeStamp": "2016-11-01T23:41:32.1608346-07:00"
+}' SequenceID=3
+2016-11-01 23:42:10.7362|ERROR|AuthenticationApp.Controllers.CustomHandleErrorAttributs|Log Event: Logger='OmneaEventLog' Level=Error Message='{
+  "ExceptionMessage": "The \"fieldset\" element was not closed.  All elements must be either self-closing or have a matching end tag.\r\n",
+  "Controller": "Account",
+  "Action": "Login",
+  "TimeStamp": "2016-11-01T23:42:10.7362579-07:00"
+}' SequenceID=5
+2016-11-01 23:43:13.2670|ERROR|AuthenticationApp.Controllers.CustomHandleErrorAttributs|Log Event: Logger='OmneaEventLog' Level=Error Message='{
+  "ExceptionMessage": "The \"fieldset\" element was not closed.  All elements must be either self-closing or have a matching end tag.\r\n",
+  "Controller": "Account",
+  "Action": "Login",
+  "TimeStamp": "2016-11-01T23:43:13.2670641-07:00"
+}' SequenceID=7
+2016-11-01 23:43:26.2281|ERROR|AuthenticationApp.Controllers.CustomHandleErrorAttributs|Log Event: Logger='OmneaEventLog' Level=Error Message='{
+  "ExceptionMessage": "The \"fieldset\" element was not closed.  All elements must be either self-closing or have a matching end tag.\r\n",
+  "Controller": "Account",
+  "Action": "Login",
+  "TimeStamp": "2016-11-01T23:43:26.2281664-07:00"
+}' SequenceID=9
+2016-11-01 23:51:16.7727|ERROR|AuthenticationApp.Controllers.CustomHandleErrorAttributs|Log Event: Logger='OmneaEventLog' Level=Error Message='{
+  "ExceptionMessage": "The parameters dictionary contains a null entry for parameter 'rememberMe' of non-nullable type 'System.Boolean' for method 'System.Threading.Tasks.Task`1[System.Web.Mvc.ActionResult] Login(AuthenticationApp.Models.LoginViewModel, System.String, Boolean)' in 'AuthenticationApp.Controllers.AccountController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.\r\nParameter name: parameters",
+  "Controller": "Account",
+  "Action": "Login",
+  "TimeStamp": "2016-11-01T23:51:16.5957588-07:00"
+}' SequenceID=3
+2016-11-01 23:52:12.2117|ERROR|AuthenticationApp.Controllers.CustomHandleErrorAttributs|Log Event: Logger='OmneaEventLog' Level=Error Message='{
+  "ExceptionMessage": "The parameters dictionary contains a null entry for parameter 'rememberMe' of non-nullable type 'System.Boolean' for method 'System.Threading.Tasks.Task`1[System.Web.Mvc.ActionResult] Login(AuthenticationApp.Models.LoginViewModel, System.String, Boolean)' in 'AuthenticationApp.Controllers.AccountController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.\r\nParameter name: parameters",
+  "Controller": "Account",
+  "Action": "Login",
+  "TimeStamp": "2016-11-01T23:52:12.0302606-07:00"
+}' SequenceID=3
+2016-11-01 23:52:52.3850|ERROR|AuthenticationApp.Controllers.CustomHandleErrorAttributs|Log Event: Logger='OmneaEventLog' Level=Error Message='{
+  "ExceptionMessage": "The parameters dictionary contains a null entry for parameter 'rememberMe' of non-nullable type 'System.Boolean' for method 'System.Threading.Tasks.Task`1[System.Web.Mvc.ActionResult] Login(AuthenticationApp.Models.LoginViewModel, System.String, Boolean)' in 'AuthenticationApp.Controllers.AccountController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.\r\nParameter name: parameters",
+  "Controller": "Account",
+  "Action": "Login",
+  "TimeStamp": "2016-11-01T23:52:52.2000933-07:00"
+}' SequenceID=3
+2016-11-02 00:10:26.6272|ERROR|AuthenticationApp.Controllers.CustomHandleErrorAttributs|Log Event: Logger='OmneaEventLog' Level=Error Message='{
+  "ExceptionMessage": "The required anti-forgery form field \"__RequestVerificationToken\" is not present.",
+  "Controller": "Account",
+  "Action": "LogOff",
+  "TimeStamp": "2016-11-02T00:10:26.4632505-07:00"
+}' SequenceID=5
+2016-11-02 14:16:41.0588|ERROR|AuthenticationApp.Controllers.CustomHandleErrorAttributs|Log Event: Logger='OmneaEventLog' Level=Error Message='{
+  "ExceptionMessage": "Section not defined: \"AddToFooter\".",
+  "Controller": "Account",
+  "Action": "Login",
+  "TimeStamp": "2016-11-02T14:16:40.8998643-07:00"
+}' SequenceID=3
+2016-11-02 17:28:38.7417|ERROR|AuthenticationApp.Controllers.CustomHandleErrorAttributs|Log Event: Logger='OmneaEventLog' Level=Error Message='{
+  "ExceptionMessage": "F:\\Visual_Studio_2015_Apps\\AuthenticationApp\\AuthenticationApp\\Views\\Shared\\_Navigation.cshtml(58): error CS1503: Argument 5: cannot convert from '<anonymous type: string class>' to 'string'",
+  "Controller": "Account",
+  "Action": "Login",
+  "TimeStamp": "2016-11-02T17:28:38.5786594-07:00"
+}' SequenceID=3
+2016-11-03 10:13:19.9699|ERROR|AuthenticationApp.Controllers.CustomHandleErrorAttributs|Log Event: Logger='OmneaEventLog' Level=Error Message='{
+  "ExceptionMessage": "Object reference not set to an instance of an object.",
+  "Controller": "Account",
+  "Action": "SendCode",
+  "TimeStamp": "2016-11-03T10:13:19.5818495-07:00"
+}' SequenceID=3
+2016-11-03 10:31:07.1625|ERROR|AuthenticationApp.Controllers.CustomHandleErrorAttributs|Log Event: Logger='OmneaEventLog' Level=Error Message='{
+  "ExceptionMessage": "Object reference not set to an instance of an object.",
+  "Controller": "Account",
+  "Action": "SendCode",
+  "TimeStamp": "2016-11-03T10:31:07.1625961-07:00"
+}' SequenceID=7
+2016-11-03 10:41:03.5382|ERROR|AuthenticationApp.Controllers.CustomHandleErrorAttributs|Log Event: Logger='OmneaEventLog' Level=Error Message='{
+  "ExceptionMessage": "The required anti-forgery cookie \"__RequestVerificationToken\" is not present.",
+  "Controller": "Account",
+  "Action": "Login",
+  "TimeStamp": "2016-11-03T10:41:03.5382324-07:00"
+}' SequenceID=9
+2016-11-03 11:14:21.9366|ERROR|AuthenticationApp.Controllers.CustomHandleErrorAttributs|Log Event: Logger='OmneaEventLog' Level=Error Message='{
+  "ExceptionMessage": "Object reference not set to an instance of an object.",
+  "Controller": "Account",
+  "Action": "SendCode",
+  "TimeStamp": "2016-11-03T11:14:21.7365502-07:00"
+}' SequenceID=5
+2016-11-03 11:16:39.2139|ERROR|AuthenticationApp.Controllers.CustomHandleErrorAttributs|Log Event: Logger='OmneaEventLog' Level=Error Message='{
+  "ExceptionMessage": "The parameters dictionary contains a null entry for parameter 'rememberMe' of non-nullable type 'System.Boolean' for method 'System.Threading.Tasks.Task`1[System.Web.Mvc.ActionResult] SendCode(System.String, Boolean)' in 'AuthenticationApp.Controllers.AccountController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.\r\nParameter name: parameters",
+  "Controller": "Account",
+  "Action": "SendCode",
+  "TimeStamp": "2016-11-03T11:16:39.044952-07:00"
+}' SequenceID=3
+2016-11-03 11:24:10.0972|ERROR|AuthenticationApp.Controllers.CustomHandleErrorAttributs|Log Event: Logger='OmneaEventLog' Level=Error Message='{
+  "ExceptionMessage": "Object reference not set to an instance of an object.",
+  "Controller": "Account",
+  "Action": "SendCode",
+  "TimeStamp": "2016-11-03T11:24:09.9282416-07:00"
+}' SequenceID=7
+2016-11-03 11:32:02.4359|ERROR|AuthenticationApp.Controllers.CustomHandleErrorAttributs|Log Event: Logger='OmneaEventLog' Level=Error Message='{
+  "ExceptionMessage": "The parameters dictionary contains a null entry for parameter 'rememberMe' of non-nullable type 'System.Boolean' for method 'System.Threading.Tasks.Task`1[System.Web.Mvc.ActionResult] SendCode(System.String, Boolean)' in 'AuthenticationApp.Controllers.AccountController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.\r\nParameter name: parameters",
+  "Controller": "Account",
+  "Action": "SendCode",
+  "TimeStamp": "2016-11-03T11:32:02.2754445-07:00"
+}' SequenceID=3
+2016-11-03 12:33:02.3342|ERROR|AuthenticationApp.Controllers.CustomHandleErrorAttributs|Log Event: Logger='OmneaEventLog' Level=Error Message='{
+  "ExceptionMessage": "The parameters dictionary contains a null entry for parameter 'rememberMe' of non-nullable type 'System.Boolean' for method 'System.Threading.Tasks.Task`1[System.Web.Mvc.ActionResult] SendCode(System.String, Boolean)' in 'AuthenticationApp.Controllers.AccountController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.\r\nParameter name: parameters",
+  "Controller": "Account",
+  "Action": "SendCode",
+  "TimeStamp": "2016-11-03T12:33:02.1592346-07:00"
+}' SequenceID=5
+2016-11-03 12:34:34.0844|ERROR|AuthenticationApp.Controllers.CustomHandleErrorAttributs|Log Event: Logger='OmneaEventLog' Level=Error Message='{
+  "ExceptionMessage": "The parameters dictionary contains a null entry for parameter 'rememberMe' of non-nullable type 'System.Boolean' for method 'System.Threading.Tasks.Task`1[System.Web.Mvc.ActionResult] SendCode(System.String, Boolean)' in 'AuthenticationApp.Controllers.AccountController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.\r\nParameter name: parameters",
+  "Controller": "Account",
+  "Action": "SendCode",
+  "TimeStamp": "2016-11-03T12:34:34.0844601-07:00"
+}' SequenceID=7
+2016-11-03 14:13:00.7690|ERROR|AuthenticationApp.Controllers.CustomHandleErrorAttributs|Log Event: Logger='OmneaEventLog' Level=Error Message='{
+  "ExceptionMessage": "The parameters dictionary contains a null entry for parameter 'rememberMe' of non-nullable type 'System.Boolean' for method 'System.Threading.Tasks.Task`1[System.Web.Mvc.ActionResult] SendCode(System.String, Boolean)' in 'AuthenticationApp.Controllers.AccountController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.\r\nParameter name: parameters",
+  "Controller": "Account",
+  "Action": "SendCode",
+  "TimeStamp": "2016-11-03T14:13:00.5790793-07:00"
+}' SequenceID=3

@@ -11,6 +11,7 @@ using AuthenticationApp.Models;
 namespace AuthenticationApp.Controllers
 {
     [Authorize]
+    [CustomHandleErrorAttributs]
     public class ManageController : Controller
     {
         private ApplicationSignInManager _signInManager;

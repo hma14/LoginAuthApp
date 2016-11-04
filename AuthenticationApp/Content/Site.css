@@ -22,3 +22,15 @@ select,
 textarea {
     max-width: 280px;
 }
+
+
+.my-button-pos
+{
+    margin-top:100px;
+    width:50%;
+}
+
+button .my-button {
+    width:50%;
+    height:15px;
+}

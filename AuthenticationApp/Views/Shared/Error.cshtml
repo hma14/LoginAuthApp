@@ -4,16 +4,23 @@
     ViewBag.Title = "Error";
 }
 
-<h1 class="text-danger text-center">Error.</h1>
-@{
-    if (String.IsNullOrEmpty(ViewBag.errorMessage))
-    {
-        <h2 class="text-danger">An error occurred while processing your request.</h2>
-    }
-    else
-    {
-        <h2 class="text-danger">@ViewBag.errorMessage</h2>
-    }
-    <p class="text-danger">Error Details: @Model.Exception.Message</p>
-}
-
+<div class="row" style="margin-top:80px;">
+    <div class="col-md-12 m-top-25">
+    
+            <div  style="min-height:500px;">
+                <h2 class="text-danger text-xs-center">Error.</h2>
+                @{
+                    if (String.IsNullOrEmpty(ViewBag.errorMessage))
+                    {
+                        <h3 class="text-danger text-xs-center">An error occurred while processing your request.</h3>
+                    }
+                    else
+                    {
+                        <h3 class="text-danger text-xs-center">@ViewBag.errorMessage</h3>
+                    }
+                    <p class="text-danger">Error Details: <br />@Model.Exception.Message</p>
+                }
+            </div>
+        </div>
+    </div>
+</div>

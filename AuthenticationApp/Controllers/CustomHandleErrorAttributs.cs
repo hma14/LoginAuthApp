@@ -48,14 +48,15 @@ namespace AuthenticationApp.Controllers
 
             // Write error logging code here if you wish.
             string ErrorData = JObject.FromObject(
-                new {
+                new
+                {
                     ExceptionMessage = filterContext.Exception.Message,
                     Controller = filterContext.RouteData.Values["Controller"],
                     Action = filterContext.RouteData.Values["Action"],
                     TimeStamp = DateTime.Now
-        }).ToString();
+                }).ToString();
 
-            LogEventInfo logInfo = new LogEventInfo(LogLevel.Error, ConfigurationManager.AppSettings["EventLogSource"], ErrorData);
+            LogEventInfo logInfo = new LogEventInfo(LogLevel.Error, ConfigurationManager.AppSettings["EventLog"], ErrorData);
             logger.Error(logInfo);
 
             //if want to get different of the request
