@@ -253,4 +253,4 @@ paket-files/
 *.jfm
 web.config
 
-ApplicationApp/Content/mdb-pro
+ApplicationApp/Content/mdb-pro/*
