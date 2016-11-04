@@ -21,7 +21,8 @@ namespace AuthenticationApp.Models
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
         public ApplicationDbContext()
-            : base("AuthDbConnection", throwIfV1Schema: false)
+                        : base("AppDbContext", throwIfV1Schema: false)
+
         {
         }
 

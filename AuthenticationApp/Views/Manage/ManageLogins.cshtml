@@ -40,15 +40,15 @@
                                         
                                             @if (account.LoginProvider.ToLower() == "facebook")
                                             {
-                                                <i class="fa fa-facebook-official fa-3x"></i>
+                                                <button type="submit" class="btn-floating btn-large btn-gplus"><i class="fa fa-facebook"></i></button>
                                             }
                                             else if (account.LoginProvider.ToLower() == "google")
                                             {
-                                                <i class="fa fa-google-plus  fa-3x"></i>
+                                                <button type="submit" class="btn-floating btn-large btn-gplus"><i class="fa fa-google-plus"></i></button>
                                             }
                                             else if (account.LoginProvider.ToLower() == "twitter")
                                             {
-                                                <i class="fa fa-twitter  fa-3x"></i>
+                                                <button type="submit" class="btn-floating btn-large btn-gplus"><i class="fa fa-twitter"></i></button>
                                             }
                                         </td>
                                         <td>
@@ -60,7 +60,7 @@
                                                     <div>
                                                         @Html.Hidden("loginProvider", account.LoginProvider)
                                                         @Html.Hidden("providerKey", account.ProviderKey)
-                                                        <input type="submit" class="btn btn-primary btn-sm" value="Remove" title="Remove this @account.LoginProvider login from your account" />
+                                                        <button type="submit" class="btn btn-cyan btn-md" title="Remove this @account.LoginProvider login from your account">Remove</button>
                                                     </div>
                                                 }
                                             }

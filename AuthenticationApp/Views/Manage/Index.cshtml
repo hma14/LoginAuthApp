@@ -6,7 +6,7 @@
 
 <div class="row top grey-text">
     <h2 class="text-xs-center">@ViewBag.Title</h2>
-    <p class="text-success">@ViewBag.StatusMessage</p>
+
     <h4 class="text-xs-center">Change your account settings</h4>
     <hr />
     <br />
@@ -77,10 +77,16 @@
             {
                 @Html.AntiForgeryToken()
                 @Html.Raw("Disabled")
-                <button type="submit"  class="btn btn-cyan">Enable</button>
+                <button type="submit" class="btn btn-cyan">Enable</button>
             }
         }
     </div>
 
+    <hr />
+
+    <div class="offset-md-4 col-md-4 top text-xs-center">
+        <p class="text-success">@ViewBag.StatusMessage</p>
+
+    </div>
 </div>
 
