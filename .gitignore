@@ -251,7 +251,9 @@ paket-files/
 .idea/
 *.sln.iml
 *.jfm
-web.config
+
+
+ApplicationApp/Content/web.config
 
 ApplicationApp/Content/mdb-pro/
 ApplicationApp/Content/mdb-pro/*
