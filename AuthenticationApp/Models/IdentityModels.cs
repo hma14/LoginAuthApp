@@ -21,7 +21,7 @@ namespace AuthenticationApp.Models
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
         public ApplicationDbContext()
-                        : base("AppDbContext", throwIfV1Schema: false)
+                        : base("OmnaeDbContext", throwIfV1Schema: false)
 
         {
         }

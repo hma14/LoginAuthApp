@@ -15,7 +15,7 @@
                 <h3><i class="fa fa-sign-in"></i> Sign Up</h3>
             </div>
             <br />
-            @using (Html.BeginForm("Register", "Account", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+            @using (Html.BeginForm("Register", "Account", FormMethod.Post))
             {
                 @Html.AntiForgeryToken()
                 @Html.ValidationSummary("", new { @class = "text-danger" })
@@ -26,20 +26,20 @@
                     @Html.TextBoxFor(m => m.Email, new { @class = "form-control" })
                 </div>
 
-                        <div class="md-form">
-                            <i class="fa fa-lock prefix"></i>
-                            @Html.LabelFor(m => m.Password, new { @class = "control-label" })
-                            @Html.PasswordFor(m => m.Password, new { @class = "form-control" })
-                        </div>
-                        <div class="md-form">
-                            <i class="fa fa-lock prefix"></i>
-                            @Html.LabelFor(m => m.ConfirmPassword, new { @class = "control-label" })
-                            @Html.PasswordFor(m => m.ConfirmPassword, new { @class = "form-control" })
-                        </div>
+                <div class="md-form">
+                    <i class="fa fa-lock prefix"></i>
+                    @Html.LabelFor(m => m.Password, new { @class = "control-label" })
+                    @Html.PasswordFor(m => m.Password, new { @class = "form-control" })
+                </div>
+                <div class="md-form">
+                    <i class="fa fa-lock prefix"></i>
+                    @Html.LabelFor(m => m.ConfirmPassword, new { @class = "control-label" })
+                    @Html.PasswordFor(m => m.ConfirmPassword, new { @class = "form-control" })
+                </div>
 
-                        <div class="text-xs-center" style="margin-top:80px;">
-                            <button type="submit" class="btn btn-cyan" style="width:50%;">Sign Up</button>
-                        </div>
+                <div class="text-xs-center" style="margin-top:80px;">
+                    <button type="submit" class="btn btn-cyan" style="width:50%;">Sign Up</button>
+                </div>
             }
         </div>
     </div>

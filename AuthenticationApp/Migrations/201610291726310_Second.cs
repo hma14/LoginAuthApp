@@ -20,17 +20,17 @@ namespace AuthenticationApp.Migrations
                     })
                 .PrimaryKey(t => t.Id);
             
-            CreateTable(
-                "dbo.CustomerAccount",
-                c => new
-                    {
-                        Id = c.Int(nullable: false, identity: true),
-                        FirstName = c.String(maxLength: 50),
-                        LastName = c.String(maxLength: 50),
-                        EmailAddress = c.String(maxLength: 50),
-                        Phone = c.String(maxLength: 25, fixedLength: true),
-                    })
-                .PrimaryKey(t => t.Id);
+            //CreateTable(
+            //    "dbo.CustomerAccount",
+            //    c => new
+            //        {
+            //            Id = c.Int(nullable: false, identity: true),
+            //            FirstName = c.String(maxLength: 50),
+            //            LastName = c.String(maxLength: 50),
+            //            EmailAddress = c.String(maxLength: 50),
+            //            Phone = c.String(maxLength: 25, fixedLength: true),
+            //        })
+            //    .PrimaryKey(t => t.Id);
             
             CreateTable(
                 "sys.database_firewall_rules",
@@ -84,7 +84,7 @@ namespace AuthenticationApp.Migrations
             DropForeignKey("dbo.AspNetUserRoles", "RoleId", "dbo.AspNetRoles");
             DropTable("dbo.AspNetUserRoles");
             DropTable("sys.database_firewall_rules");
-            DropTable("dbo.CustomerAccount");
+            //DropTable("dbo.CustomerAccount");
             DropTable("dbo.AspNetRoles");
             CreateIndex("dbo.AspNetUsers", "UserName", unique: true, name: "UserNameIndex");
             CreateIndex("dbo.AspNetRoles", "Name", unique: true, name: "RoleNameIndex");

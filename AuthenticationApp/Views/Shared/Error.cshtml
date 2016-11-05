@@ -18,10 +18,13 @@
                 <h3 class="text-danger text-xs-center">@ViewBag.errorMessage</h3>
             }
 
-            <p class="text-danger"><i class="fa fa-exclamation-triangle"></i> Error Details: <br />@Model.Exception.Message</p>
-            if (Model.Exception.InnerException != null)
+            if (Model != null)
             {
-                <p class="text-danger"><i class="fa fa-exclamation-triangle"></i> Inner Exception: <br />@Model.Exception.InnerException</p>
+                <p class="text-danger"><i class="fa fa-exclamation-triangle"></i> Error Details: <br />@Model.Exception.Message</p>
+                if (Model.Exception.InnerException != null)
+                {
+                    <p class="text-danger"><i class="fa fa-exclamation-triangle"></i> Inner Exception: <br />@Model.Exception.InnerException</p>
+                }
             }
         }
     </div>
