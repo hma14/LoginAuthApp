@@ -7,7 +7,7 @@
 <div class="row top red-text">
     <div class="offset-md-4 col-md-4">
 
-        <h2><i class="fa fa-exclamation-circle fa-2x"></i> Error</h2>
+        <h2><i class="fa fa-exclamation-circle fa-1x"></i> Error</h2>
         @{
             if (String.IsNullOrEmpty(ViewBag.errorMessage))
             {
@@ -17,7 +17,12 @@
             {
                 <h3 class="text-danger text-xs-center">@ViewBag.errorMessage</h3>
             }
-            <p class="text-danger"><i class="fa fa-comment"></i>Error Details: <br />@Model.Exception.Message</p>
+
+            <p class="text-danger"><i class="fa fa-exclamation-triangle"></i> Error Details: <br />@Model.Exception.Message</p>
+            if (Model.Exception.InnerException != null)
+            {
+                <p class="text-danger"><i class="fa fa-exclamation-triangle"></i> Inner Exception: <br />@Model.Exception.InnerException</p>
+            }
         }
     </div>
 </div>
