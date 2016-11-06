@@ -5,14 +5,14 @@ namespace AuthenticationApp.Migrations
     using System.Data.Entity.Migrations;
     using System.Linq;
 
-    internal sealed class Configuration : DbMigrationsConfiguration<AuthenticationApp.Models.ApplicationDbContext>
+    internal sealed class Configuration : DbMigrationsConfiguration<AuthenticationApp.Models.AppDbContext>
     {
         public Configuration()
         {
             AutomaticMigrationsEnabled = false;
         }
 
-        protected override void Seed(AuthenticationApp.Models.ApplicationDbContext context)
+        protected override void Seed(AuthenticationApp.Models.AppDbContext context)
         {
             //  This method will be called after migrating to the latest version.
 
