@@ -9,11 +9,7 @@
 
         <h2><i class="fa fa-exclamation-circle fa-1x"></i> Error</h2>
         @{
-            if (String.IsNullOrEmpty(ViewBag.errorMessage))
-            {
-                <h3 class="text-danger text-xs-center">An error occurred while processing your request.</h3>
-            }
-            else
+            if (!String.IsNullOrEmpty(ViewBag.errorMessage))          
             {
                 <h3 class="text-danger text-xs-center">@ViewBag.errorMessage</h3>
             }

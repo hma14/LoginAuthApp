@@ -1,25 +1,24 @@
-﻿<div class="row top grey-text">
-    <div class="offset-md-3 col-md-6">
+﻿<!--Panel-->
+<div class="row top grey-text">
+    <div class="offset-md-4 col-md-4">
 
-        <!--Panel-->
         <div class="card">
-            <h3 class="card-header primary-color white-text">Create a RFQ</h3>
+            <h4 class="card-header primary-color white-text">Create RFQ</h4>
             <div class="card-block">
-                <h4 class="card-title">Request For Quote</h4>
-                <p class="card-text">Creat a new RFQ ...</p>
-                <a class="btn btn-primary">Create a New RFQ</a>
+
+                @Html.ActionLink("Create a New RFQ", "Create", "TaskDatas")
             </div>
-            <div class="card-block">
-                <p class="card-text">Creating ...</p>
+            <div id="result" class="card-block">
+
             </div>
         </div>
 
         <!--/.Panel-->
         <!--Panel-->
         <div class="card">
-            <h3 class="card-header default-color-dark white-text">Order Tracking</h3>
+            <h4 class="card-header default-color-dark white-text">Order Tracking</h4>
             <div class="card-block">
-                <h4 class="card-title">Request For Quote</h4>
+                <h5 class="card-title">Request For Quote</h5>
                 <p class="card-text">Active Orders ...</p>
                 <p class="card-text">State: Pending Proof Aproved</p>
             </div>
@@ -29,7 +28,7 @@
         <!--/.Panel-->
         <!--Panel-->
         <div class="card">
-            <h3 class="card-header card-info white-text">Store Front</h3>
+            <h4 class="card-header card-info white-text">Store Front</h4>
             <div class="card-block">
 
                 @*will retrieve from database*@
@@ -51,8 +50,8 @@
             </div>
 
         </div>
-
-        <!--/.Panel-->
-
     </div>
+
 </div>
+
+<!--/.Panel-->

@@ -30,5 +30,7 @@ namespace AuthenticationApp.Models
         {
             return new ApplicationDbContext();
         }
+
+        public System.Data.Entity.DbSet<AuthenticationApp.Models.TaskData> TaskDatas { get; set; }
     }
 }

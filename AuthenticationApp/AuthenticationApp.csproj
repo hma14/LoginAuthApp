@@ -218,20 +218,26 @@
     <Compile Include="App_Start\IdentityConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
+    <Compile Include="Common\Constants.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\BaseController.cs" />
     <Compile Include="Controllers\CustomHandleErrorAttributs.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\TaskDatasController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Lib\SendGridAPI.cs" />
     <Compile Include="Lib\SendGridAPIClient.cs" />
     <Compile Include="Lib\SmsApi.cs" />
-    <Compile Include="Migrations\201611052342514_InitialMigrations.cs" />
-    <Compile Include="Migrations\201611052342514_InitialMigrations.Designer.cs">
-      <DependentUpon>201611052342514_InitialMigrations.cs</DependentUpon>
+    <Compile Include="Migrations\201611070228308_init.cs" />
+    <Compile Include="Migrations\201611070228308_init.Designer.cs">
+      <DependentUpon>201611070228308_init.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201611070543081_UpdatedTypesOfTaskData.cs" />
+    <Compile Include="Migrations\201611070543081_UpdatedTypesOfTaskData.Designer.cs">
+      <DependentUpon>201611070543081_UpdatedTypesOfTaskData.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -241,6 +247,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
     <Compile Include="ViewModels\CustomerAccountViewModel.cs" />
+    <Compile Include="ViewModels\TaskDataViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap-theme.css" />
@@ -660,12 +667,15 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Views\Shared\Info.cshtml" />
-    <Content Include="Views\CustomerAccount\Registration.cshtml" />
     <Content Include="Views\Shared\_Footer.cshtml" />
     <Content Include="Views\Shared\_Navigation.cshtml" />
-    <Content Include="Views\Shared\_Navigation2.cshtml" />
     <Content Include="Views\Shared\_Index.cshtml" />
     <Content Include="Views\Shared\_CustomerLanding.cshtml" />
+    <Content Include="Views\TaskDatas\Create.cshtml" />
+    <Content Include="Views\TaskDatas\Delete.cshtml" />
+    <Content Include="Views\TaskDatas\Details.cshtml" />
+    <Content Include="Views\TaskDatas\Edit.cshtml" />
+    <Content Include="Views\TaskDatas\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -683,8 +693,11 @@
     <Content Include="Scripts\jquery-3.1.1.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201611052342514_InitialMigrations.resx">
-      <DependentUpon>201611052342514_InitialMigrations.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201611070228308_init.resx">
+      <DependentUpon>201611070228308_init.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201611070543081_UpdatedTypesOfTaskData.resx">
+      <DependentUpon>201611070543081_UpdatedTypesOfTaskData.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

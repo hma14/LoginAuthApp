@@ -1,0 +1,136 @@
+﻿@model AuthenticationApp.Models.TaskData
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>TaskData</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.UserId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UserId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.UserType)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UserType)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CustomerId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CustomerId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.VenderId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.VenderId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.StateId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.StateId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.StateName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.StateName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PartNumberRevision)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PartNumberRevision)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Material)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Material)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Process)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Process)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.QuantityBreak)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.QuantityBreak)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.LeadTime)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LeadTime)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FileType)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FileType)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CreateTC)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CreateTC)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.UpdateTC)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UpdateTC)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

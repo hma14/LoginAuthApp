@@ -1,0 +1,111 @@
+﻿@model IEnumerable<AuthenticationApp.Models.TaskData>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.UserId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.UserType)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CustomerId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.VenderId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.StateId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.StateName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PartNumberRevision)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Material)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Process)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.QuantityBreak)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.LeadTime)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.FileType)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CreateTC)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.UpdateTC)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.UserId)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.UserType)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CustomerId)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.VenderId)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.StateId)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.StateName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PartNumberRevision)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Material)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Process)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.QuantityBreak)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.LeadTime)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.FileType)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CreateTC)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.UpdateTC)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.TaskId }) |
+            @Html.ActionLink("Details", "Details", new { id=item.TaskId }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.TaskId })
+        </td>
+    </tr>
+}
+
+</table>
