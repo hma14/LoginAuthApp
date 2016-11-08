@@ -170,7 +170,7 @@ namespace AuthenticationApp.Controllers
                 if (result.Succeeded)
                 {
                     //  Comment the following line to prevent log in until the user is confirmed.
-                    //  await SignInManager.SignInAsync(user, isPersistent:false, rememberBrowser:false);
+                    await SignInManager.SignInAsync(user, isPersistent:false, rememberBrowser:false);
 
                     string callbackUrl = await SendEmailConfirmationTokenAsync(user.Id, "Confirm your account");
 
@@ -385,7 +385,9 @@ namespace AuthenticationApp.Controllers
                 }
                 var user = new ApplicationUser {
                     UserName = model.Email,
-                    Email = model.Email
+                    Email = model.Email,
+                    UserType = model.UserType,
+                    CompanyName = model.CompanyName
                 };
                 var result = await UserManager.CreateAsync(user);
                 if (result.Succeeded)

@@ -1,0 +1,35 @@
+﻿@model IEnumerable<AuthenticationApp.ViewModels.TaskDataViewModel>
+@using GridMvc.Html
+
+<div class="row top grey-text">
+    <div class="offset-md-4 col-md-4">
+        @if (Model != null && Model.Any())
+        {
+            @Html.Grid(Model).Columns(columns =>
+           {
+               columns.Add(c => c.TaskId).Titled("TaskId").Filterable(true);
+               columns.Add(c => c.PartNumberRevision).Titled("Revision").Filterable(true);
+               columns.Add(c => c.UserType).Filterable(true);
+               columns.Add(c => c.MaterialCategory).Titled("Material Category").Filterable(true);
+               columns.Add(c => c.Material).Titled("Material Type").Filterable(true);
+               columns.Add(c => c.MaterialMainType).Titled("Material Main Type").Filterable(true);
+               columns.Add(c => c.Process).Titled("Process").Filterable(true);
+               columns.Add(c => c.SurfaceFinish).Filterable(true);
+               columns.Add(c => c.OverlaysAttributes).Filterable(true);
+               columns.Add(c => c.FileType).Filterable(true);
+               columns.Add(c => c.QuantityBreak).Filterable(true);
+               columns.Add(c => c.LeadTime).Filterable(true);
+
+
+               columns.Add()
+               .Encoded(false)
+               .Sanitized(false)
+               .SetWidth(30)
+               .RenderValueAs(o => Html.ActionLink("Assign Vendors", "AssignVendor", new { id = o.TaskId }));
+
+           }).WithPaging(10).Sortable(true)
+        }
+    </div>
+
+</div>
+

@@ -25,13 +25,13 @@ namespace AuthenticationApp.Controllers
         }
 
         // GET: TaskDatas/Details/5
-        public async Task<ActionResult> Details(Guid? id)
+        public async Task<ActionResult> Details(string userId)
         {
-            if (id == null)
+            if (userId == null)
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            TaskData taskData = await db.TaskDatas.FindAsync(id);
+            TaskData taskData = await db.TaskDatas.FindAsync(userId);
             if (taskData == null)
             {
                 return HttpNotFound();
@@ -49,22 +49,7 @@ namespace AuthenticationApp.Controllers
         // POST: TaskDatas/Create
         // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
-#if false
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<ActionResult> Create([Bind(Include = "TaskId,UserId,UserType,CustomerId,VenderId,StateId,StateName,PartNumberRevision,Material,Process,QuantityBreak,LeadTime,FileType,CreateTC,UpdateTC")] TaskData taskData)
-        {
-            if (ModelState.IsValid)
-            {
-                taskData.TaskId = Guid.NewGuid();
-                db.TaskDatas.Add(taskData);
-                await db.SaveChangesAsync();
-                return RedirectToAction("Index");
-            }
 
-            return View(taskData);
-        }
-#else
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<ActionResult> Create( TaskDataViewModel model)
@@ -83,7 +68,7 @@ namespace AuthenticationApp.Controllers
                 taskData.TaskId = Guid.NewGuid();
                 taskData.UserId = db.Users.Where(u => u.Email == User.Identity.Name).FirstOrDefault().Id;
                 taskData.CustomerId = taskData.UserType == USER_TYPE.Customer ? taskData.UserId : null;
-                taskData.VenderId = taskData.UserType == USER_TYPE.Vender ? taskData.UserId : null;
+                taskData.VenderId = taskData.UserType == USER_TYPE.Vendor ? taskData.UserId : null;
                 taskData.StateId = States.PendingRFQ;
                 taskData.StateName = Enum.GetName(typeof(States), States.PendingRFQ);
                 taskData.CreateTC = taskData.UpdateTC = DateTime.UtcNow;
@@ -91,12 +76,14 @@ namespace AuthenticationApp.Controllers
 
                 db.TaskDatas.Add(taskData);
                 await db.SaveChangesAsync();
+
+                //TempData["Status"] = taskData.StateName;
                 return RedirectToAction("Index", "Home");
             }
 
             return View(model);
         }
-#endif
+
 
         // GET: TaskDatas/Edit/5
         public async Task<ActionResult> Edit(Guid? id)

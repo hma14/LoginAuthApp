@@ -3,6 +3,12 @@
     ViewBag.Title = "Register";
 }
 
+<style>
+    .my-form-control {
+        margin-left: 150px;
+        width: 70%;
+    }
+</style>
 
 <div class="row top grey-text">
     <div class="offset-md-4 col-md-4">
@@ -36,8 +42,20 @@
                     @Html.LabelFor(m => m.ConfirmPassword, new { @class = "control-label" })
                     @Html.PasswordFor(m => m.ConfirmPassword, new { @class = "form-control" })
                 </div>
+                <div class="md-form">
+                    <i class="fa fa-building-o prefix"></i>
+                    @Html.LabelFor(m => m.CompanyName, new { @class = "control-label" })
+                    @Html.TextBoxFor(m => m.CompanyName, new { @class = "form-control" })
+                </div>
 
-                <div class="text-xs-center" style="margin-top:80px;">
+
+                <div class="md-form">
+                    @Html.LabelFor(model => model.UserType, htmlAttributes: new { @class = "control-label col-sm-4" })
+                    @Html.EnumDropDownListFor(model => model.UserType, htmlAttributes: new { @class = "form-control my-form-control col-sm-4" })
+
+                </div>
+
+                <div class="text-xs-center" style="margin-top:200px;">
                     <button type="submit" class="btn btn-cyan" style="width:50%;">Sign Up</button>
                 </div>
             }

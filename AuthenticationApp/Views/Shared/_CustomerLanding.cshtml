@@ -1,4 +1,5 @@
 ﻿<!--Panel-->
+
 <div class="row top grey-text">
     <div class="offset-md-4 col-md-4">
 
@@ -6,10 +7,15 @@
             <h4 class="card-header primary-color white-text">Create RFQ</h4>
             <div class="card-block">
 
-                @Html.ActionLink("Create a New RFQ", "Create", "TaskDatas")
-            </div>
-            <div id="result" class="card-block">
+                @Html.ActionLink("Create new RFQ", "Create", "TaskDatas", null, new { @class="btn btn-cyan"})
 
+            </div>
+
+            <div id="result" class="card-block">
+                @if(TempData["Status"] != null)
+                {
+                    <p class="card-text">Status: <b class="green-text">@TempData["Status"]</b></p>
+                }
             </div>
         </div>
 

@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using AuthenticationApp.Common;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
 namespace AuthenticationApp.Models
@@ -9,6 +10,8 @@ namespace AuthenticationApp.Models
         [Display(Name = "Email")]
         public string Email { get; set; }
 
+        public USER_TYPE UserType { get; set; }
+        public string CompanyName { get; set; }
     }
 
     public class ExternalLoginListViewModel
@@ -80,6 +83,10 @@ namespace AuthenticationApp.Models
         [Display(Name = "Confirm password")]
         [Compare("Password", ErrorMessage = "The password and confirmation password do not match.")]
         public string ConfirmPassword { get; set; }
+
+        public USER_TYPE UserType { get; set; }
+        public string CompanyName { get; set; }
+
     }
 
     public class ResetPasswordViewModel

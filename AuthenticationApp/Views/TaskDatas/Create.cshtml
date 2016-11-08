@@ -4,10 +4,13 @@
     ViewBag.Title = "Create";
 }
 
+<script src="~/Scripts/jquery.unobtrusive-ajax.min.js"></script>
+
 <div class="row top grey-text">
     <div class="offset-md-4 col-md-4">
-        @using (Html.BeginForm())
+        @using (Ajax.BeginForm("Create", "TaskDatas", new AjaxOptions { HttpMethod = "POST", UpdateTargetId = "result" }))
         {
+                   
             @Html.AntiForgeryToken()
 
             <div class="form-horizontal">
@@ -124,19 +127,3 @@
 @section Scripts {
     @Scripts.Render("~/bundles/jqueryval")
 }
-
-@*<script>
-        $(function () {
-            $('#materialMainType').hide();
-
-
-            $('#materialType').change(function () {
-                var selected = $('#materialType').val
-
-                switch (selected) {
-                    case 0: $('#materialMainType').show();
-                        break;
-                }
-            })
-        })
-    </script>*@

@@ -23,9 +23,21 @@
                     @Html.LabelFor(m => m.Email, new { @class = "control-label" })
                     @Html.TextBoxFor(m => m.Email, new { @class = "form-control" })
                     @Html.ValidationMessageFor(m => m.Email, "", new { @class = "text-danger" })
+                </div>              
+                <div class="md-form">
+                    <i class="fa fa-building-o prefix"></i>
+                    @Html.LabelFor(m => m.CompanyName, new { @class = "control-label" })
+                    @Html.TextBoxFor(m => m.CompanyName, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(m => m.CompanyName, "", new { @class = "text-danger" })
                 </div>
-                <div class="md-form text-xs-center" style="margin-top:100px;">
-                    <input type="submit" class="btn btn-primary" value="Register" style="width:50%;" />
+                <div class="md-form">
+                    <i class="fa fa-user prefix"></i>
+                    @Html.LabelFor(m => m.UserType, new { @class = "control-label" })
+                    @Html.EnumDropDownListFor(m => m.UserType, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(m => m.UserType, "", new { @class = "text-danger" })
+                </div>
+                <div class="md-form text-xs-center">
+                    <button type="submit" class="btn btn-cyan" style="width:50%;">Register</button>
                 </div>
             }
 

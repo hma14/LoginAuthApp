@@ -64,6 +64,7 @@ namespace AuthenticationApp.Common
 
     public enum MATERIALS_Processes
     {
+        None,
         Metals_Machined,
         Metals_Cast,
         Metals_CastAndMachined,
@@ -84,6 +85,7 @@ namespace AuthenticationApp.Common
 
     public enum MATERIALS_TYPE_Precision_Metals_Surface_Finish
     {
+        None,
         Metals_None,
         Metals_PowderCoat,
         Metals_Paint,
@@ -95,6 +97,7 @@ namespace AuthenticationApp.Common
    
     public enum MATERIALS_TYPE_Membrane_Switches_Attributes
     {
+        None,
         SilkScreenOrDigitalPrint,
         Waterproof_Yes,
         Waterproof_No,
@@ -108,6 +111,7 @@ namespace AuthenticationApp.Common
 
     public enum MATERIALS_TYPE_Graphic_Overlays_Attributes
     {
+        None,
         SilkScreenOrDigitalPrint,
         Embossing_Yes,
         Embossing_No,
@@ -155,7 +159,7 @@ namespace AuthenticationApp.Common
     {
         Adimin,
         Customer,
-        Vender
+        Vendor
     }
 
     public enum States

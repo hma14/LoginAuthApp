@@ -1,6 +1,7 @@
 ﻿using AuthenticationApp.Common;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Web;
 
@@ -8,6 +9,8 @@ namespace AuthenticationApp.ViewModels
 {
     public class TaskDataViewModel
     {
+        [Key]
+        public Guid TaskId { get; set; }
         public USER_TYPE UserType { get; set; }
         public int PartNumberRevision { get; set; }
         public MATERIALS_CATEGORY MaterialCategory { get; set; }

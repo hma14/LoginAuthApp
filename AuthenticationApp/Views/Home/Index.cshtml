@@ -1,7 +1,7 @@
 ﻿@{
     ViewBag.Title = "Home Page";
 }
-
+@using AuthenticationApp.Common
 
 @if (!Request.IsAuthenticated)
 {
@@ -9,7 +9,20 @@
 }
 else
 {
-    @Html.Partial("_CustomerLanding")
+
+    if (TempData["UserType"] != null && (string) TempData["UserType"] == "Customer")
+    {
+        @Html.Partial("_CustomerLanding")
+    }
+    else if (TempData["UserType"] != null && (string) TempData["UserType"] == "Admin")
+    {
+        @Html.Partial("_VendorLanding")
+    }
+    else
+    {
+        @Html.Partial("_AdminLanding")
+    }
+    
 }
 
 

@@ -13,7 +13,7 @@ namespace AuthenticationApp.Migrations
         
         string IMigrationMetadata.Id
         {
-            get { return "201611070228308_init"; }
+            get { return "201611072256073_init"; }
         }
         
         string IMigrationMetadata.Source

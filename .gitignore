@@ -253,7 +253,7 @@ paket-files/
 *.jfm
 
 
-ApplicationApp/Content/web.config
+ApplicationApp/web.config
 
 ApplicationApp/Content/mdb-pro/
 ApplicationApp/Content/mdb-pro/*
